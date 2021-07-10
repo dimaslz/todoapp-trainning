@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todos reducer create todo On -> createTodo 1`] = `
+Object {
+  "items": Array [],
+  "status": Object {
+    "error": null,
+    "loaded": false,
+    "loading": true,
+  },
+}
+`;
+
+exports[`Todos reducer create todo On -> createTodoFailed 1`] = `
+Object {
+  "items": Array [],
+  "status": Object {
+    "error": "Something happen",
+    "loaded": true,
+    "loading": false,
+  },
+}
+`;
+
+exports[`Todos reducer create todo On -> createTodoSuccess 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "_id": "",
+      "description": "",
+      "status": Object {
+        "_id": "",
+        "name": "",
+      },
+      "title": "",
+    },
+    Object {
+      "_id": "",
+      "description": "",
+      "status": Object {
+        "_id": "",
+        "name": "",
+      },
+      "title": "",
+    },
+  ],
+  "status": Object {
+    "error": false,
+    "loaded": true,
+    "loading": false,
+  },
+}
+`;
+
+exports[`Todos reducer delete todo On -> deleteTodo 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "_id": "todoId",
+      "description": "",
+      "status": Object {
+        "_id": "",
+        "name": "",
+      },
+      "title": "",
+    },
+  ],
+  "status": Object {
+    "error": false,
+    "loaded": false,
+    "loading": true,
+  },
+}
+`;
+
+exports[`Todos reducer get todos On -> getTodos 1`] = `
+Object {
+  "items": Array [],
+  "status": Object {
+    "error": false,
+    "loaded": false,
+    "loading": true,
+  },
+}
+`;
+
+exports[`Todos reducer get todos On -> getTodosFailed 1`] = `
+Object {
+  "items": Array [],
+  "status": Object {
+    "error": "Something happen",
+    "loaded": true,
+    "loading": false,
+  },
+}
+`;
+
+exports[`Todos reducer get todos On -> getTodosSuccess 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "_id": "",
+      "description": "",
+      "status": Object {
+        "_id": "",
+        "name": "",
+      },
+      "title": "",
+    },
+  ],
+  "status": Object {
+    "error": false,
+    "loaded": true,
+    "loading": false,
+  },
+}
+`;
+
+exports[`Todos reducer update todo On -> deleteTodo 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "_id": "todoId",
+      "description": "",
+      "status": Object {
+        "_id": "",
+        "name": "",
+      },
+      "title": "",
+    },
+  ],
+  "status": Object {
+    "error": false,
+    "loaded": false,
+    "loading": true,
+  },
+}
+`;
